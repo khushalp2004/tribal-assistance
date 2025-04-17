@@ -1,0 +1,42 @@
+.speech-input-container {
+  position: relative;
+  display: inline-block; /* Or block, depending on desired layout */
+}
+.formbold-form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px; /* Adjust as needed */
+}
+.speech-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Remove default button padding */
+  }
+
+  .speech-button-textarea {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-60%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Remove default button padding */
+  }
+
+  .speech-button img {
+    width: 30px; /* Adjust size as needed */
+    height: 20px;
+  }
+
+  /* Optional: Style the input when speech is being recognized */
+  .speech-input.listening {
+    border-color: #007bff; /* Example: Highlight the border */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Subtle glow */
+  }
