@@ -34,7 +34,7 @@ function sendemail_verify($name,$email,$verify_token){
         <h2>You have registered with Tribal Assistance</h2>
         <h5>Verify your email to login with the given link</h5>
         <br/><br/>
-        <a href='http://localhost/register-login-with-verification/verify-email.php?token=$verify_token'>Click Me </a>
+        <a href='http://localhost/tribal-assistance/verify-email.php?token=$verify_token'>Click Me </a>
     ";
 
     $mail->Body=$email_template;

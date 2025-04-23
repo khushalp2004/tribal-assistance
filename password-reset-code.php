@@ -34,7 +34,7 @@ function send_password($get_name,$get_email,$token){
         <h2>Hello {$get_name}</h2>
         <h3>You are receiving this mail because we received a password reset request for your acount.</h3>
         <br/><br/>
-        <a href='http://localhost/register-login-with-verification/password-change.php?token=$token&email=$get_email'>Click Me </a>
+        <a href='http://localhost/tribal-assistance/password-change.php?token=$token&email=$get_email'>Click Me </a>
     ";
 
     $mail->Body=$email_template;
